@@ -7,18 +7,24 @@
                 <name helper="libjquery/getCurrentCoreNonIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreNonIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getNoconflictNonIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreNonIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getCurrentMigrateNonIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreNonIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
 
             <action method="addItem">
@@ -26,18 +32,24 @@
                 <name helper="libjquery/getCurrentCoreFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreCondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getNoconflictFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreCondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getCurrentMigrateFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreCondition"/>
+                <cond/>
+                <first>1</first>
             </action>
 
             <action method="addItem">
@@ -45,18 +57,24 @@
                 <name helper="libjquery/getCurrentCoreOldIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreOldIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getNoconflictOldIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreOldIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
             <action method="addItem">
                 <type>js</type>
                 <name helper="libjquery/getCurrentMigrateOldIEFile"/>
                 <params/>
                 <if helper="libjquery/getCurrentCoreOldIECondition"/>
+                <cond/>
+                <first>1</first>
             </action>
         </reference>
     </default>
