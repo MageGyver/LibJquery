@@ -1,0 +1,5 @@
+"jquery_core_hint", "Select the version of the jQuery core."
+"jquery_core_oldie_hint", "Use another version for older IE (lt IE version 9). If the selected core version above also supports older IE (jQuery 1.x), this option has no affect."
+"use_noconflict_hint", "Use the NOCONFLICT mode for jQuery"
+"use_minified_hint", "Use the minified files if available"
+"jquery_migrate_hint", "Add the jQuery migrate tool to support older jQuery features. jQuery migrate must be used with jQuery version since 1.9+"

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentCoreNonIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreNonIECondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getNoconflictNonIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreNonIECondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentMigrateNonIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreNonIECondition"/>
+            </action>
+
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentCoreFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreCondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getNoconflictFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreCondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentMigrateFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreCondition"/>
+            </action>
+
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentCoreOldIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreOldIECondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getNoconflictOldIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreOldIECondition"/>
+            </action>
+            <action method="addItem">
+                <type>js</type>
+                <name helper="libjquery/getCurrentMigrateOldIEFile"/>
+                <params/>
+                <if helper="libjquery/getCurrentCoreOldIECondition"/>
+            </action>
+        </reference>
+    </default>
+</layout>

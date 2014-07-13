@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageGyver_LibJquery>
+            <codePool>community</codePool>
+            <active>true</active>
+            <depends>
+                <Mage_Page/>
+            </depends>
+        </MageGyver_LibJquery>
+    </modules>
+</config>

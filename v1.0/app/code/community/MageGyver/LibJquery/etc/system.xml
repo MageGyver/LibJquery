@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <dev>
+            <groups>
+                <jquery translate="label">
+                    <label>jQuery</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>200</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <jquery_core translate="label comment" module="libjquery">
+                            <label>Core version</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>libjquery/adminhtml_system_config_source_jquerycoreversion</source_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>jquery_core_hint</comment>
+                        </jquery_core>
+                        <jquery_core_oldie translate="label" module="libjquery">
+                            <label>Use specific version for older IE</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>libjquery/adminhtml_system_config_source_jquerycoreversionielt9</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>jquery_core_oldie_hint</comment>
+                        </jquery_core_oldie>
+                        <use_noconflict translate="label" module="libjquery">
+                            <label>Use noconflict mode</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>40</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>use_noconflict_hint</comment>
+                        </use_noconflict>
+                        <use_minified translate="label" module="libjquery">
+                            <label>Use minified version</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>libjquery/adminhtml_system_config_source_yesnotindev</source_model>
+                            <sort_order>50</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>use_minified_hint</comment>
+                        </use_minified>
+                        <jquery_migrate translate="label comment">
+                            <label>Migrate version</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>libjquery/adminhtml_system_config_source_jquerymigrateversion</source_model>
+                            <sort_order>60</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>jquery_migrate_hint</comment>
+                        </jquery_migrate>
+                    </fields>
+                </jquery>
+            </groups>
+        </dev>
+    </sections>
+</config>
