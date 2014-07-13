@@ -49,6 +49,7 @@ class MageGyver_LibJquery_Block_Page_Html_Head extends Mage_Page_Block_Html_Head
             if (!is_null($item['cond']) && !$this->getData($item['cond']) || !isset($item['name'])) {
                 continue;
             }
+            $first  = !empty($item['first']) ? $item['first'] : '';
             $if     = !empty($item['if']) ? $item['if'] : '';
             $params = !empty($item['params']) ? $item['params'] : '';
             switch ($item['type']) {
